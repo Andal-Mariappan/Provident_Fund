@@ -1,0 +1,84 @@
+/* Empty. Add your own CSS if you like */
+
+.backgroundLogin {
+    background-image: url("../img/BG-h.png");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+}
+
+.backgroundLoginComfirm {
+    background-image: url("../img/BG-m.png");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+}
+
+.backgroundMember {
+    background-image: url("../img/Member.png");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+}
+.backgroundMember2 {
+    background-image: url("../img/Member2.png");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+}
+.backgroundMember3 {
+    background-image: url("../img/Member3.png");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+}
+.backgroundMember4 {
+    background-image: url("../img/Member4.png");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+}
+.background1 {
+    background-image: url("../img/Green mobile Wallpapers.jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+}
+.background2 {
+    background-image: url("../img/images for mobile phones (9).jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+}
+.background3 {
+    background-image: url("../img/wallpaper-for-mobile-25.jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+}
+.background4 {
+    background-image: url("../img/wallpaper-for-mobile-52.jpg");
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    background-size: 100%;
+}
+.positionLogIn {
+    margin-top: 370px;
+}
+
+.positionLogInComfirm {
+    margin-top: 30px;
+}
+
+.numberPad {
+    border-radius: 100%;
+    margin-left: 50px;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+}
+
+#inputStyle {
+    width: 100%;
+    padding-left: 10px;
+}

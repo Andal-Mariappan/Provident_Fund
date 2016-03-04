@@ -1,0 +1,76 @@
+<ion-view class="backgroundLoginComfirm ">
+    <ion-content>
+        <div class="text-center positionLogInComfirm">
+            <div class="row">
+                <div class="col col-10"></div>
+                <div class="col col-80">
+                    <i class="ion-android-lock" style="font-size: 70px;  color: #FFFFFF;"></i> </div>
+                <div class="col col-10"></div>
+            </div>
+            <br>
+            <div class="">
+                <div class="row">
+                    <div class="col col-25"></div>
+                    <div class="col col-50 ">
+                        <p style="font-size: 150%;  color: #FFFFFF;">ยืนยันรหัสผ่าน</p>
+                    </div>
+                    <div class="col col-25"></div>
+                </div>
+                <div class="row">
+                    <div class="col col-25"></div>
+                    <div class="col col-50 ">
+                        <input type="password" class="text-center " style="border:1px solid #DDDDDD; width:100%; height:100%; font-size: 300%; background: transparent;" ng-model="typedCode" readonly>
+                    </div>
+                    <div class="col col-25"></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col col-25">
+                        <button class="button button-outline button-light numberPad" ng-click="keyPressed(1)">1</button>
+                    </div>
+                    <div class="col col-25">
+                        <button class="button button-outline button-light numberPad" ng-click="keyPressed(2)">2</button>
+                    </div>
+                    <div class="col col-25">
+                        <button class="button button-outline button-light numberPad" ng-click="keyPressed(3)">3</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-25">
+                        <button class="button button-outline button-light numberPad" ng-click="keyPressed(4)">4</button>
+                    </div>
+                    <div class="col col-25">
+                        <button class="button button-outline button-light numberPad" ng-click="keyPressed(5)">5</button>
+                    </div>
+                    <div class="col col-25">
+                        <button class="button button-outline button-light numberPad" ng-click="keyPressed(6)">6</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-25">
+                        <button class="button button-outline button-light numberPad" ng-click="keyPressed(7)">7</button>
+                    </div>
+                    <div class="col col-25">
+                        <button class="button button-outline button-light numberPad" ng-click="keyPressed(8)">8</button>
+                    </div>
+                    <div class="col col-25">
+                        <button class="button button-outline button-light numberPad" ng-click="keyPressed(9)">9</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col col-25">
+                        <button ng-click="goHome()" class="button button-outline button-light numberPad"><i class="ion-ios-home-outline"></i></button>
+                    </div>
+                    <div class="col col-25">
+                        <button class="button button-outline button-light numberPad" ng-click="keyPressed(0)">0</button>
+                    </div>
+                    <div class="col col-25">
+                        <button class="button button-outline button-light numberPad" ng-click="keyPressed(-3)"><i class="ion-backspace-outline"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </ion-content>
+</ion-view>
+<ion-content>
