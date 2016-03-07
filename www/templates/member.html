@@ -1,12 +1,89 @@
-<ion-slide-box on-slide-changed="slideHasChanged($index)">
+<ion-slide-box on-slide-changed="slideHasChanged($index)" active-slide="activeSlide">
+    <!-- page 1 -->
     <ion-slide class="backgroundMember">
+        <br>
+        <br>
+        <div class="row">
+            <div class="col col-10">
+            </div>
+            <div class="col col-80 text-center">
+                <div class="button-bar">
+                    <a class="button" ng-class="var==1?'button-balanced':'button-stable'" ng-click="click(1)">เงินสะสม</a>
+                    <a class="button" ng-class="var==2?'button-balanced':'button-stable'" ng-click="click(2)">ตราสารหนี้</a>
+                </div>
+            </div>
+            <div class="col col-10">
+            </div>
         </div>
-    </ion-slide>
-    <ion-slide class="backgroundMember2">
+        <!-- tab 1 -->
+        <div class="divRadiusOut" ng-show="var=='1'">
+            <button class="button button-light buttonIconMemberAbove"><i class="ion-cash iconMember"><p class="fontIniconMember">72%</p></i></button>
+            <div class="divRadiusIn"></div>
+            <button class="button button-light buttonIconMemberBelow"><i class="ion-card iconMember"><p class="fontIniconMember">28%</p></i></button>
         </div>
+        <div class="textMemberAbove" ng-show="var=='1'">
+            <p>เงินสะสม</p>
+            <p>230,400 บาท</p>
+        </div>
+        <div class="textMemberBelow" ng-show="var=='1'">
+            <p>เงินสมทบ</p>
+            <p>89,600 บาท</p>
+        </div>
+        <div class="row text-center rowPerson" ng-show="var=='1'">
+            <div class="col col-40"><i class="ion-person iconPerson"></i>
+                <br>
+                <p class="textPerson">Thongchai Klaiyindee</p>
+                <p class="textPerson">0006733837</p>
+                <p class="textPerson" style="font-size: 20px;">320,000</p>
+            </div>
+            <div class="col col-30"></div>
+            <div class="col col-30"></div>
+        </div>
+        <!-- tab 1 -->
+        <!-- tab 2 -->
+        <div class="divRadiusOut" ng-show="var=='2'">
+            <button class="button button-light buttonIconMemberAbove"><i class="ion-cash iconMember"><p class="fontIniconMember">30%</p></i></button>
+            <div class="divRadiusIn"></div>
+            <button class="button button-light buttonIconMemberBelow"><i class="ion-card iconMember"><p class="fontIniconMember">70%</p></i></button>
+        </div>
+        <div class="textMemberAbove" ng-show="var=='2'">
+            <p>ตราสารทุน</p>
+            <p>96,000 บาท</p>
+        </div>
+        <div class="textMemberBelow" ng-show="var=='2'">
+            <p>ตราสารหนี้</p>
+            <p>224,000 บาท</p>
+        </div>
+        <div class="row text-center rowPerson" ng-show="var=='2'">
+            <div class="col col-40"><i class="ion-person iconPerson"></i>
+                <br>
+                <p class="textPerson">Thongchai Klaiyindee</p>
+                <p class="textPerson">0006733837</p>
+                <p class="textPerson" style="font-size: 20px;">320,000</p>
+            </div>
+            <div class="col col-30"></div>
+            <div class="col col-30"></div>
+        </div>
+        <!-- tab 1 -->
     </ion-slide>
+    <!-- page 1 -->
+    <!-- page 2 -->
     <ion-slide class="backgroundMember3">
     </ion-slide>
-    <ion-slide class="backgroundMember4">
+    <!-- page 2 -->
+    <!-- page 3 -->
+    <ion-slide>
+        <div class="text-center">
+            <p style="font-size: 150%; margin-top: 50px; color:#339933;">ใบแจ้งยอดเงินสมาชิกกองทุน</p>
+        </div>
+        <img src="img/pdf.png" style="width: inherit; margin-top: 30px;">
+        <div class="row">
+            <div class="col col-30"></div>
+            <div class="col col-30"></div>
+            <div class="col col-40">
+                <button class="button button-outline button-assertive downloadPDF"><i class="ion-android-download"></i></button>
+            </div>
+        </div>
     </ion-slide>
+    <!-- page 3 -->
 </ion-slide-box>

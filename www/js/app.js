@@ -29,11 +29,12 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
         .state('home', {
             url: '/templates/home',
             templateUrl: 'templates/home.html',
-            controller:'homeController'
+            controller: 'homeController'
         })
         .state('member', {
             url: '/templates/member',
-            templateUrl: 'templates/member.html'
+            templateUrl: 'templates/member.html',
+            controller: 'memberController'
         })
         .state('logIn', {
             url: '/templates/logIn',
@@ -43,7 +44,7 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
         .state('register', {
             url: '/templates/register',
             templateUrl: 'templates/register.html',
-            controller:'registerController'
+            controller: 'registerController'
         })
 
     $urlRouterProvider.otherwise('/templates/home');

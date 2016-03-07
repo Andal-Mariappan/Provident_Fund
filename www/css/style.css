@@ -1,84 +1,208 @@
-/* Empty. Add your own CSS if you like */
-
-.backgroundLogin {
-    background-image: url("../img/BG-h.png");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;
-}
-
-.backgroundLoginComfirm {
-    background-image: url("../img/BG-m.png");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;
-}
-
-.backgroundMember {
-    background-image: url("../img/Member.png");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;
-}
-.backgroundMember2 {
-    background-image: url("../img/Member2.png");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;
-}
-.backgroundMember3 {
-    background-image: url("../img/Member3.png");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;
-}
-.backgroundMember4 {
-    background-image: url("../img/Member4.png");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;
-}
-.background1 {
-    background-image: url("../img/Green mobile Wallpapers.jpg");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;
-}
-.background2 {
-    background-image: url("../img/images for mobile phones (9).jpg");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;
-}
-.background3 {
-    background-image: url("../img/wallpaper-for-mobile-25.jpg");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;
-}
-.background4 {
-    background-image: url("../img/wallpaper-for-mobile-52.jpg");
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    background-size: 100%;
-}
-.positionLogIn {
-    margin-top: 370px;
-}
-
-.positionLogInComfirm {
-    margin-top: 30px;
-}
-
-.numberPad {
-    border-radius: 100%;
-    margin-left: 50px;
-    width: 70px;
-    height: 70px;
-    font-size: 40px;
-}
-
-#inputStyle {
-    width: 100%;
-    padding-left: 10px;
-}
+    /* Empty. Add your own CSS if you like */
+    
+    .backgroundLogin {
+        background-image: url("../img/BG-h.png");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .backgroundLoginComfirm {
+        background-image: url("../img/BG-m.png");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .backgroundMember {
+        background-image: url("../img/bg-l.png");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .backgroundMember3 {
+        background-image: url("../img/Member3.png");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .positionLogIn {
+        margin-top: 370px;
+    }
+    
+    .positionLogInComfirm {
+        margin-top: 30px;
+    }
+    
+    .numberPad {
+        border-radius: 100%;
+        width: 70px;
+        height: 70px;
+        font-size: 40px;
+    }
+    
+    #inputStyle {
+        width: 100%;
+        padding-left: 10px;
+    }
+    
+    .downloadPDF {
+        border-radius: 100%;
+        margin-left: 50px;
+        width: 70px;
+        height: 70px;
+        font-size: 40px;
+    }
+    
+    .fontHeaderPVD {
+        font-size: 200%;
+        color: #339933;
+    }
+    /*Start Css Member style*/
+    
+    .divRadiusOut {
+        margin-top: 35px;
+        height: 55%;
+        width: 95%;
+        border-style: solid;
+        border-radius: 100%;
+        margin-left: -100px;
+        border: solid 0.2em;
+        border-color: #FFFFFF;
+    }
+    
+    .divRadiusIn {
+        margin-top: -13px;
+        height: 58%;
+        border-style: solid;
+        border-radius: 100%;
+        width: 60%;
+        margin-left: 61px;
+        border: solid 0.2em;
+        border-color: #FFFFFF;
+    }
+    
+    .iconMember {
+        color: #33CC00;
+    }
+    
+    .buttonIconMemberAbove {
+        border-radius: 100%;
+        margin-left: 65%;
+        margin-top: -10px;
+        padding-top: 10px;
+        width: 95px;
+        height: 95px;
+        font-size: 50px;
+    }
+    
+    .buttonIconMemberBelow {
+        border-radius: 100%;
+        margin-left: 65%;
+        margin-top: -20px;
+        padding-top: 10px;
+        width: 95px;
+        height: 95px;
+        font-size: 50px;
+    }
+    
+    .fontIniconMember {
+        font-size: 25px;
+        color: #33CC00;
+        margin-top: -15px;
+    }
+    
+    .textMemberAbove {
+        margin-left: 65%;
+        margin-top: -91%;
+        color: #FFFFFF;
+        font-size: 130%;
+    }
+    
+    .textMemberBelow {
+        margin-left: 65%;
+        margin-top: 58%;
+        color: #FFFFFF;
+        font-size: 130%;
+    }
+    
+    .iconPerson {
+        font-size: 100px;
+        color: #FFFFFF;
+    }
+    
+    .rowPerson {
+        margin-top: -70%;
+        margin-left: -5px;
+    }
+    
+    p.textPerson {
+        margin: 0 0 0px;
+        color: #FFFFFF;
+        font-size: 10px;
+    }
+    /*End Css Member style*/
+    /*End Css Member style Mobile*/
+    /* and (max-device-width: 667px) */
+    
+    @media screen and (min-device-width: 375px) {
+        /*Start Css Member style*/
+        .divRadiusOut {
+            margin-top: 45px;
+            height: 55%;
+            width: 93%;
+            border-style: solid;
+            border-radius: 100%;
+            margin-left: -100px;
+            border: solid 0.2em;
+            border-color: #FFFFFF;
+        }
+        .divRadiusIn {
+            margin-top: -15px;
+            height: 60%;
+            border-style: solid;
+            border-radius: 100%;
+            width: 63%;
+            margin-left: 63px;
+            border: solid 0.2em;
+            border-color: #FFFFFF;
+        }
+        .buttonIconMemberAbove {
+            border-radius: 100%;
+            margin-left: 65%;
+            margin-top: -10px;
+            padding-top: 10px;
+            width: 95px;
+            height: 95px;
+            font-size: 50px;
+        }
+        .buttonIconMemberBelow {
+            border-radius: 100%;
+            margin-left: 65%;
+            margin-top: -20px;
+            padding-top: 10px;
+            width: 95px;
+            height: 95px;
+            font-size: 50px;
+        }
+        .fontIniconMember {
+            font-size: 25px;
+            color: #33CC00;
+            margin-top: -15px;
+        }
+        .textMemberAbove {
+            margin-left: 65%;
+            margin-top: -88%;
+            color: #FFFFFF;
+            font-size: 130%;
+        }
+        .textMemberBelow {
+            margin-left: 65%;
+            margin-top: 58%;
+            color: #FFFFFF;
+            font-size: 130%;
+        }
+    }
+    /*End Css Member style*/
