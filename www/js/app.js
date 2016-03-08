@@ -37,6 +37,7 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
             controller: 'memberController'
         })
         .state('logIn', {
+            cache: false,
             url: '/templates/logIn',
             templateUrl: 'templates/logIn.html',
             controller: 'logInConfirmController'
@@ -46,6 +47,7 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'templates/register.html',
             controller: 'registerController'
         })
+
 
     $urlRouterProvider.otherwise('/templates/home');
 
