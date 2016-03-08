@@ -12,6 +12,8 @@ myApp.controller('logInConfirmController', ['$scope', '$location', function($sco
                 var codeLength = $scope.typedCode.length;
                 if (codeLength > 0) {
                     $scope.typedCode = $scope.typedCode.substr(0, codeLength - 1);
+                }else{
+                    $scope.typedCode = "";
                 }
                 break;
             case 1:
