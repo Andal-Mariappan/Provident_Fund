@@ -15,6 +15,7 @@ myApp.controller('memberController', ['$scope', '$location', '$ionicPopover', fu
         $scope.popover = popover;
     });
 
+<<<<<<< HEAD
     $scope.logOut = function() {
 
         $scope.popover.hide();
@@ -23,5 +24,7 @@ myApp.controller('memberController', ['$scope', '$location', '$ionicPopover', fu
     }
 
 
+=======
+>>>>>>> ce756549335a4f8fe575756499f703250857d071
 
 }]);
