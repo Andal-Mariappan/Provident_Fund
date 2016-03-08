@@ -8580,16 +8580,16 @@ progress {
       border-color: transparent;
       background: none;
       box-shadow: none;
-      color: #ddd; }
+      color: #FFFFFF; }
     .button.button-light.button-icon {
       border-color: transparent;
       background: none; }
     .button.button-light.button-outline {
-      border-color: #ddd;
+      border-color: #FFFFFF;
       background: transparent;
-      color: #ddd; }
+      color: #FFFFFF; }
       .button.button-light.button-outline.active, .button.button-light.button-outline.activated {
-        background-color: #ddd;
+        background-color: #FFFFFF;
         box-shadow: none;
         color: #fff; }
   .button.button-stable {
