@@ -157,7 +157,7 @@
     @media screen and (min-device-width: 375px) {
         /*Start Css Member style*/
         .divRadiusOut {
-            margin-top: 35px;
+            margin-top: 25px;
             height: 55%;
             width: 93%;
             border-style: solid;
@@ -211,6 +211,11 @@
             color: #FFFFFF;
             font-size: 130%;
         }
+        .iconMenu {
+            margin-top: 10px;
+            font-size: 40px;
+            color: #33CD5F;
+        }
     }
     /*End Css Member style*/
     
@@ -228,4 +233,3 @@
     .backgroundMenu {
         background-color: #E8E8E8;
     }
-    
