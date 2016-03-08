@@ -5,7 +5,7 @@ myApp.controller('logInConfirmController', ['$scope', '$location', function($sco
 
     $scope.keyPressed = function(keyCode) {
 
-        tempT = $scope.typedCode;
+        pword = $scope.typedCode;
 
         switch (keyCode) {
             case -3:
@@ -24,7 +24,7 @@ myApp.controller('logInConfirmController', ['$scope', '$location', function($sco
             case 8:
             case 9:
             case 0:
-                if (!/^\d+$/.test(tempT)) {
+                if (!/^\d+$/.test(pword)) {
                     $scope.typedCode = keyCode;
                 } else {
                     $scope.typedCode += '' + keyCode;
