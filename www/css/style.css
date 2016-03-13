@@ -14,12 +14,19 @@
         background-size: 100%;
     }
     
+    .bg-retired {
+        background-image: url("../img/Retire-setting.jpg");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
     .backgroundMember {
         background-color: #F7F7F7;
     }
     
     .positionLogIn {
-        margin-top: 370px;
+        margin-top: 350px;
     }
     
     .positionLogInComfirm {
@@ -161,6 +168,10 @@
         font-size: 30px;
     }
     
+    .icon-font-20 {
+        font-size: 20px;
+    }
+    
     .icon-font-balanced {
         color: #33cd5f;
     }
@@ -190,4 +201,45 @@
     .menu .bar-header {
         z-index: 11;
         background-color: #484646;
+    }
+    
+    .TourA-BG {
+        background-image: url("../img/Tour1.jpg");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .TourB-BG {
+        background-image: url("../img/Tour2.jpg");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .TourC-BG {
+        background-image: url("../img/Tour3.jpg");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .TourD-BG {
+        background-image: url("../img/Tour4.jpg");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .TourE-BG {
+        background-image: url("../img/Tour5.jpg");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    .Evalu-A-BG {
+        background-image: url("../img/Evalu-setting.jpg");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
     }

@@ -1,5 +1,5 @@
 <ion-side-menus>
-    <ion-side-menu-content class="backgroundMember">
+    <ion-side-menu-content>
         <ion-content scroll="false">
             <div class="row row-bottom media-screen">
                 <div class="col col-25 text-left">
@@ -116,7 +116,7 @@
                 <div class="col col-25 ">
                 </div>
             </div>
-            <div class="row " >
+            <div class="row ">
                 <div class="col col-25"></div>
                 <div class="col col-25 text-center font-gray" style="margin-top:-5px;">ตราสารหนี้</div>
                 <div class="col col-25 text-center font-gray" style="margin-top:-5px;">ตราสารทุน</div>
@@ -125,45 +125,13 @@
         </ion-content>
     </ion-side-menu-content>
     <!-- Left menu -->
-    <ion-side-menu side="left" class="menuBackground">
+    <ion-side-menu side="left">
         <ion-header-bar class="bar-stable menuBackground ">
             <div class="menus">
             </div>
         </ion-header-bar>
         <ion-content scroll="false">
-            <div class="list ">
-                <a class="item item-icon-left item-icon-right  menu-left-costom" href="#/views/employeeDetail">
-                    <i class="icon ion-chatbubble-working"></i> เรื่องน่ารู้สำหรับสมาชิกกองทุนสำรองเลี้ยงชีพ
-                    <i class="icon ion-ios-arrow-forward"></i>
-                </a>
-                <a class="item item-icon-left item-icon-right  menu-left-costom" href="#/views/capture">
-                    <i class="icon ion-chatbubble-working"></i> คำนวณแผนเกษียณอายุ
-                    <i class="icon ion-ios-arrow-forward"></i>
-                </a>
-                <a class="item item-icon-left item-icon-right menu-left-costom" href="#/views/leave">
-                    <i class="icon ion-chatbubble-working"></i> สิทธิประโยชน์ทางภาษี
-                    <i class="icon ion-ios-arrow-forward"></i>
-                </a>
-                <a class="item item-icon-left item-icon-right menu-left-costom" href="#">
-                    <i class="icon ion-chatbubble-working"></i> การประเมินรูปแบบความเสี่ยง
-                    <i class="icon ion-ios-arrow-forward"></i>
-                </a>
-                <a class="item item-icon-left item-icon-right menu-left-costom" href="#/views/viewTeams">
-                    <i class="icon ion-chatbubble-working"></i> FAQ
-                    <i class="icon ion-ios-arrow-forward"></i>
-                </a>
-                <a class="item item-icon-left item-icon-right menu-left-costom" href="#">
-                    <i class="icon ion-chatbubble-working"></i> ข้อมูลสมาชิก
-                    <i class="icon ion-ios-arrow-forward"></i>
-                </a>
-                <a class="item item-icon-left item-icon-right menu-left-costom" href="#">
-                    <i class="icon ion-chatbubble-working"></i> ใบแจ้งยอดเงินสมาชิกกองทุน
-                    <i class="icon ion-ios-arrow-forward"></i>
-                </a>
-                <a class="item item-icon-left item-icon-right menu-left-costom" href="#">
-                    <i class="icon ion-chatbubble-working"></i> ลงชื่อออก
-                    <i class="icon ion-ios-arrow-forward"></i>
-                </a>
+            <div class="list " ng-include src="'templates/menu.html'">
             </div>
         </ion-content>
     </ion-side-menu>

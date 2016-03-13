@@ -2572,7 +2572,7 @@
 
 .ion-record:before {
   content: "";
-  color: #666666; }
+  color: #4AB95D; }
 
 .ion-refresh:before {
   content: ""; }
@@ -4284,7 +4284,7 @@ a.subdued {
   border-top-width: 1px;
   border-bottom-width: 0;
   background-position: top;
-  height: 44px; }
+  height: 64px; }
   .bar-footer.item-input-inset {
     position: absolute; }
 
@@ -6750,7 +6750,8 @@ button.item.item-button-right {
   z-index: 1;
   width: 100%;
   height: 15px;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: -10px; }
   .slider-pager .slider-pager-page {
     display: inline-block;
     margin: 0px 3px;

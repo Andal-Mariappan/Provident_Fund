@@ -1,4 +1,5 @@
-myApp.controller('memberController', ['$scope', '$location', '$ionicPopover', function($scope, $location, $ionicPopover) {
+myApp.controller('memberController', ['$scope', '$location', '$ionicPopover','$ionicSideMenuDelegate', function($scope,
+    $location, $ionicPopover, $ionicSideMenuDelegate) {
 
 
     $scope.var = 1;

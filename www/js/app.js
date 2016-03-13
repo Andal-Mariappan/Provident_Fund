@@ -27,6 +27,7 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
 
     $stateProvider
         .state('home', {
+            cache: false,
             url: '/templates/home',
             templateUrl: 'templates/home.html',
             controller: 'homeController'
@@ -48,7 +49,50 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'templates/register.html',
             controller: 'registerController'
         })
-
+        .state('retired1', {
+            cache: false,
+            url: '/templates/retired1',
+            templateUrl: 'templates/retired1.html',
+            controller: 'retiredController'
+        })
+        .state('retired2', {
+            url: '/templates/retired2',
+            templateUrl: 'templates/retired2.html',
+            controller: 'retiredController'
+        })
+        .state('retired3', {
+            cache: false,
+            url: '/templates/retired3',
+            templateUrl: 'templates/retired3.html',
+            controller: 'retiredController'
+        })
+        .state('menu', {
+            url: '/templates/menu',
+            templateUrl: 'templates/menu.html',
+            controller: 'retiredController'
+        })
+        .state('providentFund', {
+            cache: false,
+            url: '/templates/providentFund',
+            templateUrl: 'templates/providentFund.html'
+        })
+        .state('evalu1', {
+            cache: false,
+            url: '/templates/evalu1',
+            templateUrl: 'templates/evalu1.html',
+            controller: 'evaluController'
+        })
+        .state('evalu2', {
+            cache: false,
+            url: '/templates/evalu2',
+            templateUrl: 'templates/evalu2.html'
+        })
+        .state('evaluComplate', {
+            cache: false,
+            url: '/templates/evaluComplate',
+            templateUrl: 'templates/evaluComplate.html',
+            controller: 'evaluController'
+        })
 
     $urlRouterProvider.otherwise('/templates/home');
 
