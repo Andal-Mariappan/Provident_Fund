@@ -6,14 +6,14 @@ myApp.controller('memberController', ['$scope', '$location', '$ionicPopover', fu
         $scope.var = num;
     }
 
-    $scope.animation = 'slide-in-up';
+    // $scope.animation = 'slide-in-up';
 
-    $ionicPopover.fromTemplateUrl('templates/menu.html', {
-        scope: $scope,
-        animation: $scope.animation
-    }).then(function(popover) {
-        $scope.popover = popover;
-    });
+    // $ionicPopover.fromTemplateUrl('templates/menu.html', {
+    //     scope: $scope,
+    //     animation: $scope.animation
+    // }).then(function(popover) {
+    //     $scope.popover = popover;
+    // });
 
     $scope.logOut = function() {
 

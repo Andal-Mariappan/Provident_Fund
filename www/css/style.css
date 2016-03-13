@@ -15,17 +15,7 @@
     }
     
     .backgroundMember {
-        background-image: url("../img/bg-l.png");
-        -webkit-background-size: 100%;
-        -moz-background-size: 100%;
-        background-size: 100%;
-    }
-    
-    .backgroundMember3 {
-        background-image: url("../img/Member3.png");
-        -webkit-background-size: 100%;
-        -moz-background-size: 100%;
-        background-size: 100%;
+        background-color: #F7F7F7;
     }
     
     .positionLogIn {
@@ -67,160 +57,13 @@
         font-size: 200%;
         color: #339933;
     }
-    /*Start Css Member style*/
-    
-    .divRadiusOut {
-        margin-top: 25px;
-        height: 55%;
-        width: 95%;
-        border-style: solid;
-        border-radius: 100%;
-        margin-left: -100px;
-        border: solid 0.2em;
-        border-color: #FFFFFF;
-    }
-    
-    .divRadiusIn {
-        margin-top: -13px;
-        height: 58%;
-        border-style: solid;
-        border-radius: 100%;
-        width: 60%;
-        margin-left: 61px;
-        border: solid 0.2em;
-        border-color: #FFFFFF;
-    }
-    
-    .iconMember {
-        color: #33CC00;
-    }
-    
-    .buttonIconMemberAbove {
-        border-radius: 100%;
-        margin-left: 65%;
-        margin-top: -10px;
-        padding-top: 10px;
-        width: 95px;
-        height: 95px;
-        font-size: 50px;
-    }
-    
-    .buttonIconMemberBelow {
-        border-radius: 100%;
-        margin-left: 65%;
-        margin-top: -20px;
-        padding-top: 10px;
-        width: 95px;
-        height: 95px;
-        font-size: 50px;
-    }
-    
-    .fontIniconMember {
-        font-size: 25px;
-        color: #33CC00;
-        margin-top: -15px;
-    }
-    
-    .textMemberAbove {
-        margin-left: 65%;
-        margin-top: -91%;
-        color: #FFFFFF;
-        font-size: 130%;
-    }
-    
-    .textMemberBelow {
-        margin-left: 65%;
-        margin-top: 58%;
-        color: #FFFFFF;
-        font-size: 130%;
-    }
-    
-    .iconPerson {
-        font-size: 100px;
-        color: #FFFFFF;
-    }
-    
-    .rowPerson {
-        margin-top: -70%;
-        margin-left: -5px;
-    }
-    
-    p.textPerson {
-        margin: 0 0 0px;
-        color: #FFFFFF;
-        font-size: 10px;
-    }
-    /*End Css Member style*/
     /*End Css Member style Mobile*/
     /* and (max-device-width: 667px) */
     
-    @media screen and (min-device-width: 375px) {
-        /*Start Css Member style*/
-        .divRadiusOut {
-            margin-top: 25px;
-            height: 55%;
-            width: 93%;
-            border-style: solid;
-            border-radius: 100%;
-            margin-left: -100px;
-            border: solid 0.2em;
-            border-color: #FFFFFF;
-        }
-        .divRadiusIn {
-            margin-top: -15px;
-            height: 60%;
-            border-style: solid;
-            border-radius: 100%;
-            width: 63%;
-            margin-left: 63px;
-            border: solid 0.2em;
-            border-color: #FFFFFF;
-        }
-        .buttonIconMemberAbove {
-            border-radius: 100%;
-            margin-left: 65%;
-            margin-top: -10px;
-            padding-top: 10px;
-            width: 95px;
-            height: 95px;
-            font-size: 50px;
-        }
-        .buttonIconMemberBelow {
-            border-radius: 100%;
-            margin-left: 65%;
-            margin-top: -20px;
-            padding-top: 10px;
-            width: 95px;
-            height: 95px;
-            font-size: 50px;
-        }
-        .fontIniconMember {
-            font-size: 25px;
-            color: #33CC00;
-            margin-top: -15px;
-        }
-        .textMemberAbove {
-            margin-left: 65%;
-            margin-top: -90%;
-            color: #FFFFFF;
-            font-size: 130%;
-        }
-        .textMemberBelow {
-            margin-left: 65%;
-            margin-top: 58%;
-            color: #FFFFFF;
-            font-size: 130%;
-        }
-        .iconMenu {
-            margin-top: 10px;
-            font-size: 40px;
-            color: #33CD5F;
-        }
-    }
+    @media screen and (min-device-width: 375px) {}
     /*End Css Member style*/
     
     .iconMenu {
-        font-size: 40px;
         color: #33CD5F;
     }
     
@@ -232,4 +75,115 @@
     
     .backgroundMenu {
         background-color: #E8E8E8;
+    }
+    
+    .borderDivL {
+        border: 1px solid;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-color: #21D800;
+    }
+    
+    .borderDivR {
+        border: 1px solid;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-color: #21D800;
+    }
+    
+    .textP-Member {
+        position: fixed;
+    }
+    
+    .iconPerson {
+        font-size: 30px;
+    }
+    
+    .header-label {
+        font-size: 150%
+    }
+    
+    .font-100 {
+        font-size: 100%;
+    }
+    
+    .font-200 {
+        margin-top: 2px;
+        font-size: 200%;
+    }
+    
+    .font-15 {
+        font-size: 15px;
+    }
+    
+    .bigPackMember {
+        border-radius: 100%;
+        width: 100px;
+        height: 100px;
+        padding-top: 10px;
+    }
+    
+    .miniPackMember {
+        border-radius: 100%;
+        width: 80px;
+        height: 80px;
+        padding-top: 10px;
+    }
+    
+    .bigPackMember-label {
+        font-size: 20px;
+        margin-top: -15px;
+    }
+    
+    .bigPackMember-number {
+        font-size: 10px;
+    }
+    
+    .sum {
+        height: 50px;
+        margin-top: -5px;
+        /*background-color: gray;*/
+    }
+    
+    .unitSum {
+        margin-top: -15px;
+    }
+    
+    .icon-font-40 {
+        font-size: 40px;
+    }
+    
+    .icon-font-30 {
+        font-size: 30px;
+    }
+    
+    .icon-font-balanced {
+        color: #33cd5f;
+    }
+    
+    .icon-font-energized {
+        color: #ffc900;
+    }
+    
+    .font-gray {
+        color: gray;
+    }
+    
+    .menu-left {
+        left: 0;
+        background-color: #484646;
+    }
+    
+    .menu-left-costom {
+        background-color: #484646;
+    }
+    
+    a.item {
+        color: #D4CFCF;
+        text-decoration: none;
+    }
+    
+    .menu .bar-header {
+        z-index: 11;
+        background-color: #484646;
     }

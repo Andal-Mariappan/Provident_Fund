@@ -32,6 +32,7 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
             controller: 'homeController'
         })
         .state('member', {
+            cache: false,
             url: '/templates/member',
             templateUrl: 'templates/member.html',
             controller: 'memberController'
