@@ -92,7 +92,7 @@
     }
     
     .textP-Member {
-        position: fixed;
+        margin-top: -20px;
     }
     
     .iconPerson {
