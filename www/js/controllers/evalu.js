@@ -1,12 +1,14 @@
-myApp.controller('evaluController', ['$scope', '$location', function($scope, $location) {
+myApp.controller('evaluController', ['$scope', '$location', '$ionicPopup',
+    function($scope, $location, $ionicPopup) {
 
-    $scope.gotoEvalu = function() {
+        $scope.gotoEvalu = function() {
 
-        $location.path('/templates/evaluComplate');
+            $location.path('/templates/evaluComplate');
+        }
+        $scope.gotoEvaluTest = function() {
+
+            $location.path('/templates/evalu1');
+        }
+
     }
-    $scope.gotoEvaluTest = function() {
-
-        $location.path('/templates/evalu1');
-    }
-
-}]);
+]);
