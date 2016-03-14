@@ -1,23 +1,16 @@
 <ion-side-menus>
-    <ion-side-menu-content>
+    <ion-side-menu-content class="FAQ-BG">
         <ion-content scroll="false">
             <div class="row row-bottom media-screen">
                 <div class="col col-10 text-left">
                     <button menu-toggle="left" class=" button-icon icon ion-navicon-round iconMenu"></button>
                 </div>
-                <div class="col col-80 text-center">
-                    <p class="header-label icon-font-balanced">คำนวณแผนเกษียณอายุ</p>
-                </div>
-                <div class="col col-10 text-center">
-                </div>
             </div>
             <div>
-                <img src="img/Retire2-0.jpg" style="width: 100%; margin-top:-5px;">
+                <button class="button button-clear button-positive" style="width:100%; margin-top:80px;" ng-click="gotoDetail()">
+                </button>
             </div>
         </ion-content>
-        <ion-footer-bar align-title="left">
-            <button class="button button-block button-balanced" style="margin-bottom:1px;" ng-click="gotoRetired()"><p class="icon-font-20">ตั้งค่าการคำนวณ</p></button>
-        </ion-footer-bar>
     </ion-side-menu-content>
     <!-- Left menu -->
     <ion-side-menu side="left">

@@ -237,9 +237,41 @@
         -moz-background-size: 100%;
         background-size: 100%;
     }
+    
     .Evalu-A-BG {
         background-image: url("../img/Evalu-setting.jpg");
         -webkit-background-size: 100%;
         -moz-background-size: 100%;
         background-size: 100%;
+    }
+    
+    .Evalu-B-BG {
+        background-image: url("../img/Evalu-test.jpg");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .FAQ-BG {
+        background-image: url("../img/FAQ.png");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .FAQ-De-BG {
+        background-image: url("../img/FAQ-sub.png");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    
+    .benefit-graph {
+        background-image: url("../img/Member3.png");
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        background-size: 100%;
+    }
+    .font-black{
+        color: black;
     }

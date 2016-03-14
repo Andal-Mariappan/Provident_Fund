@@ -1,4 +1,4 @@
-myApp.controller('memberController', ['$scope', '$location', '$ionicPopover','$ionicSideMenuDelegate', function($scope,
+myApp.controller('memberController', ['$scope', '$location', '$ionicPopover', '$ionicSideMenuDelegate', function($scope,
     $location, $ionicPopover, $ionicSideMenuDelegate) {
 
 
@@ -7,20 +7,24 @@ myApp.controller('memberController', ['$scope', '$location', '$ionicPopover','$i
         $scope.var = num;
     }
 
-    // $scope.animation = 'slide-in-up';
+    $scope.gotoSaving = function() {
 
-    // $ionicPopover.fromTemplateUrl('templates/menu.html', {
-    //     scope: $scope,
-    //     animation: $scope.animation
-    // }).then(function(popover) {
-    //     $scope.popover = popover;
-    // });
-
-    $scope.logOut = function() {
-
-        $scope.popover.hide();
-        $location.path('templates/home');
+        $location.path('templates/saving');
 
     }
+    $scope.gotoSubsidy = function() {
 
+        $location.path('templates/subsidy');
+
+    }
+    $scope.goBackMember = function() {
+
+        $location.path('templates/member');
+
+    }
+    $scope.benefitGraph = function() {
+
+        $location.path('templates/benefit-graph');
+
+    }
 }]);

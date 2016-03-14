@@ -5,10 +5,15 @@ myApp.controller('evaluController', ['$scope', '$location', '$ionicPopup',
 
             $location.path('/templates/evaluComplate');
         }
-        $scope.gotoEvaluTest = function() {
+        $scope.gotoEvalu1 = function() {
 
             $location.path('/templates/evalu1');
         }
-
+        $scope.evaluTest = function() {
+        	$location.path('/templates/evalu1');
+        }
+        $scope.gotoEvaluTest = function() {
+        	$location.path('/templates/evalu2');
+        }
     }
 ]);

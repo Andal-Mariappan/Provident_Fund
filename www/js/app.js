@@ -85,13 +85,49 @@ myApp.config(function($stateProvider, $urlRouterProvider) {
         .state('evalu2', {
             cache: false,
             url: '/templates/evalu2',
-            templateUrl: 'templates/evalu2.html'
+            templateUrl: 'templates/evalu2.html',
+            controller: 'evaluController'
         })
         .state('evaluComplate', {
             cache: false,
             url: '/templates/evaluComplate',
             templateUrl: 'templates/evaluComplate.html',
             controller: 'evaluController'
+        })
+        .state('FAQ', {
+            cache: false,
+            url: '/templates/FAQ',
+            templateUrl: 'templates/FAQ.html',
+            controller: 'FAQController'
+        })
+        .state('FAQDetail', {
+            cache: false,
+            url: '/templates/FAQDetail',
+            templateUrl: 'templates/FAQDetail.html',
+            controller: 'FAQController'
+        })
+        .state('saving', {
+            cache: false,
+            url: '/templates/saving',
+            templateUrl: 'templates/saving.html',
+            controller: 'memberController'
+        })
+        .state('subsidy', {
+            cache: false,
+            url: '/templates/subsidy',
+            templateUrl: 'templates/subsidy.html',
+            controller: 'memberController'
+        })
+        .state('statement', {
+            cache: false,
+            url: '/templates/statement',
+            templateUrl: 'templates/statement.html',
+        })
+        .state('benefit-graph', {
+            cache: false,
+            url: '/templates/benefit-graph',
+            templateUrl: 'templates/benefit-graph.html',
+            controller:'memberController'
         })
 
     $urlRouterProvider.otherwise('/templates/home');
