@@ -5265,7 +5265,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
 
 .menu-animated {
   -webkit-transition: -webkit-transform 200ms ease;
-  transition: transform 200ms ease; }
+  transition: transform 600ms ease; }
 
 /**
  * Modals
